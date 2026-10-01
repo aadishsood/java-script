@@ -11,11 +11,43 @@
 
 <body>
 
-    <h1>Random Background Color</h1>
+    <nav>
 
-    <p>Click the button to change the color</p>
+        <h2>Random Color</h2>
 
-    <button id="backgroundcolor" onclick="changeBackground()">Change Background</button>
+        <button class="menu" onclick="toggleMenu()">☰</button>
+
+        <div class="links" id="links">
+
+            <a href="#" onclick="goHome(); return false;">
+                Home
+            </a>
+
+            <a href="#" onclick="return false;">
+                Background Change
+            </a>
+
+            <a href="https://www.instagram.com/sood_aadi008?stkn=MWdsbnJjZ25rcm1pdg==" target="_blank">
+                Instagarm
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <div class="container">
+
+        <h1>Random Background Color</h1>
+
+        <p>Click the button to change the color</p>
+
+        <button id="backgroundcolor" onclick="changeBackground()">
+            Change Background
+        </button>
+
+    </div>
+
 
     <script src="script.js"></script>
 
